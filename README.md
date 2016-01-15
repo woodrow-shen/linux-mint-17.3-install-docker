@@ -2,7 +2,7 @@
 
 ## Instruction
 ```bash
-sudo apt-get install apparmor docker.io 
+sudo apt-get install apparmor docker.io cgroup-lite
 # add $USER to docker group to use docker without sudo
 sudo groupadd docker
 sudo usermod -a -G docker $USER
