@@ -7,5 +7,5 @@ MAINTAINER woodrowshen woodrow.shen@gmail.com
 # re-compile YouCompleteMe
 WORKDIR /root/.vim/bundle/YouCompleteMe
 
-RUN ./install.sh
+RUN ./install.sh --clang-completer
 
